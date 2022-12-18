@@ -1,0 +1,42 @@
+@media(max-width: 1100px){
+    .menu__item + .menu__item {
+        padding-left: 20px;
+    }
+    .header__box {
+        margin-right: 5px;
+    }
+}
+@media(max-width: 968px){
+    .menu__item + .menu__item {
+        padding-left: 20px;
+    }
+    .header__box {
+        margin-right: 5px;
+    }
+    .header__bottom {
+        display: none;
+    }
+    .menu__list {
+        display: none;
+    }
+    .menu__btn {
+    display: block;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    }
+    .menu__btn-line {
+        width: 33px;
+height: 3px;
+border: none;
+background: #2F3035;
+border-radius: 3px;
+margin: 8px 0;
+    }
+
+}
+@media(max-width: 640px){
+    .header_adress {
+        display: none;
+    }
+}
