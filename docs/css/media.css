@@ -1,3 +1,11 @@
+@media(max-width: 1200px){
+    .menu__item + .menu__item {
+        padding-left: 20px;
+    }
+    .header__box {
+        margin-right: 5px;
+    }
+}
 @media(max-width: 1100px){
     .menu__item + .menu__item {
         padding-left: 20px;
@@ -19,11 +27,36 @@
     .menu__list {
         display: none;
     }
+    
+     .menu__mobile-line-wrapper {
+        display: block;
+        font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+/* Основной текст */
+
+color: #2F3035;
+padding: 15px 0 15px 15px;
+
+background: #F0F0F4;
+/* overflow-x: scroll;  */
+    }
+    .menu__mobile-line {
+     
+      width: 450px;   
+
+    }
+
     .menu__btn {
     display: block;
     background-color: transparent;
     cursor: pointer;
     border: none;
+    padding: 0;
     }
     .menu__btn-line {
         width: 33px;
@@ -34,9 +67,22 @@ border-radius: 3px;
 margin: 8px 0;
     }
 
+
+}
+@media(max-width: 733px){
+   
+    .search__tabs {
+    margin-bottom: 25px;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+  
 }
 @media(max-width: 640px){
     .header_adress {
         display: none;
     }
+
+  
 }
