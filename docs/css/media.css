@@ -19,7 +19,10 @@
     .footer__top-inner {
     flex-wrap: wrap;
     justify-content: space-around;
-}
+    }
+    .catalog__inner-list {
+     justify-content: space-around;   
+    }
 }
 @media(max-width: 968px){
     .menu__item + .menu__item {
@@ -121,5 +124,8 @@ background-color: #F0F0F4;
         justify-content: flex-start;
         align-items: center;
         width: 100%;
+    }
+    .catalog__inner {
+        flex-wrap: wrap;
     }
 }
