@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,600&display=swap"
-      rel="stylesheet" />
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/fonts.css" />
@@ -45,7 +46,8 @@
               <img
                 class="logo__img"
                 src="images/logo.svg"
-                alt="images/logo.svg" />
+                alt="images/logo.svg"
+              />
             </a>
             <div class="header__box">
               <p class="header_adress">Москва, ул. Науки 25</p>
@@ -111,12 +113,19 @@
             <img
               class="product-card__img"
               src="images/gidrotsikl-brp.jpg"
-              alt="" />
+              alt=""
+            />
+            <img
+              class="product-item__img product-item__img-mobile"
+              src="images/content/gidrotsikl_2.png"
+              alt=""
+            />
             <p class="product-card__price-old">1 200 475 ₽</p>
             <p class="product-card__price-new">1 100 475 ₽</p>
             <p class="product-card__link">Нашли дешевле? Снизим цену!</p>
-            <!-- <p class="product-card__price-old">1 200 475 ₽</p> 
-                <p class="product-card__price-new">1 100 475 ₽</p>  -->
+            <button class="product-card__btn product-card__btn-mobile">
+              купить
+            </button>
           </div>
           <div class="product-card__content">
             <h1 class="product-card__title">
@@ -175,7 +184,9 @@
                   </ul>
                   <div class="product-card__more">
                     <a href="" class="product-card__more-link">Показать еще</a>
+                    <!-- <div class="product-card__btn"> -->
                     <button class="product-card__btn">купить</button>
+                    <!-- </div> -->
                   </div>
                 </div>
                 <div id="prod02" class="tab-content">content02</div>
@@ -205,102 +216,123 @@
             <a class="tab card-tabs" href="#tab-6">Cервис</a>
             <a class="tab card-tabs" href="#tab-7">Гарантия</a>
           </div>
+
           <div class="tabs-container">
-            <div id="tab-1" class="card__tab-content tab-content tabs-content--active">
-              content100
+            <div
+              id="tab-1"
+              class="card__tab-content tab-content tabs-content--active"
+            >
+              <!-- content100 -->
             </div>
-            <div id="tab-2" class="card__tab-content tab-content">content200</div>
-            <div id="tab-3" class="card__tab-content tab-content">content200</div>
-            <div id="tab-4" class="card__tab-content tab-content tabs-content--active">
+            <div id="tab-2" class="card__tab-content tab-content">
+              content200
+            </div>
+            <div id="tab-3" class="card__tab-content tab-content">
+              content200
+            </div>
+            <div
+              id="tab-4"
+              class="card__tab-content tab-content tabs-content--active"
+            >
               <form>
                 <div class="card__top-line">
                   <label class="card__label-search" for="">
                     Магазин
-                    <input class="card__input-search" type="text">
+                    <input class="card__input-search" type="text" />
                   </label>
                   <label class="card__label-p" for="">
-                    
-                    <input  type="radio" name="pickup">
+                    <input type="radio" name="pickup" />
                     Забрать сегодня
                   </label>
                   <label class="card__label-p" for="">
-                    
-                    <input  type="radio" name="pickup" checked>
+                    <input type="radio" name="pickup" checked />
                     Забрать в течение недели
                   </label>
-                  
                 </div>
                 <ul class="card__list">
                   <li class="card__list-item card__list-item--title">
-                    <div class="card__list-address card__list-address--title">Адрес</div>
-                    <div class="card__list-work card__list-work--title">Режим работы</div>
+                    <div class="card__list-address card__list-address--title">
+                      Адрес
+                    </div>
+                    <div class="card__list-work card__list-work--title">
+                      Режим работы
+                    </div>
                     <div class="card__list-a card__list-a--title">Доступно</div>
-                    <div class="card__list-n card__list-n--title">Количество</div>
+                    <div class="card__list-n card__list-n--title">
+                      Количество
+                    </div>
                     <div class="card__list-btn card__list-b--title">
                       <button type="submit">Купить</button>
                     </div>
-                  </li>  
+                  </li>
                   <li class="card__list-item">
                     <div class="card__list-address">Москва, ул. Науки 25</div>
                     <div class="card__list-work">
                       <div class="work">
-                      <span>пн-сб:</span>  <span>08:00-19:00</span>
-                      </div>  
+                        <span>пн-сб:</span> <span>08:00-19:00</span>
+                      </div>
                       <div class="work">
-                      <span>вс:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>  <span>09:00-17:00</span>
-                      </div>  
+                        <span>вс:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+                        <span>09:00-17:00</span>
+                      </div>
                     </div>
                     <div class="card__list-a">В наличии</div>
                     <div class="card__list-n">1</div>
                     <div class="card__list-btn">
                       <button type="submit">Купить</button>
                     </div>
-                  </li>  
+                  </li>
                   <li class="card__list-item">
-                    <div class="card__list-address">Москва, ул.  Южная 134</div>
+                    <div class="card__list-address">Москва, ул. Южная 134</div>
                     <div class="card__list-work">
-                      <span>пн-сб:  08:00-19:00</span>
-                      <span>вс:  09:00-17:00</span>
+                      <span>пн-сб: 08:00-19:00</span>
+                      <span>вс: 09:00-17:00</span>
                     </div>
                     <div class="card__list-a">В наличии</div>
                     <div class="card__list-n">2</div>
                     <div class="card__list-btn">
                       <button type="submit">Купить</button>
                     </div>
-                  </li>  
+                  </li>
                   <li class="card__list-item">
-                    <div class="card__list-address">Санкт-Петербург,<br> 
-ул. Красная 19</div>
+                    <div class="card__list-address">
+                      Санкт-Петербург,<br />
+                      ул. Красная 19
+                    </div>
                     <div class="card__list-work">
-                      <span>пн-сб:  08:00-19:00</span>
-                      <span>вс:  09:00-17:00</span>
+                      <span>пн-сб: 08:00-19:00</span>
+                      <span>вс: 09:00-17:00</span>
                     </div>
                     <div class="card__list-a">Нет в наличии</div>
                     <div class="card__list-n"></div>
                     <div class="card__list-btn">
                       <button type="submit">Купить</button>
                     </div>
-                  </li>  
+                  </li>
                   <li class="card__list-item">
                     <div class="card__list-address">Киев, ул Шевченко 167</div>
                     <div class="card__list-work">
-                      <span>пн-сб:  08:00-19:00</span>
-                      <span>вс:  09:00-17:00</span>
+                      <span>пн-сб: 08:00-19:00</span>
+                      <span>вс: 09:00-17:00</span>
                     </div>
                     <div class="card__list-a">Нет в наличии</div>
                     <div class="card__list-n"></div>
                     <div class="card__list-btn">
                       <button type="submit">Купить</button>
                     </div>
-                  </li>  
-
+                  </li>
                 </ul>
-
               </form>
             </div>
-            <div id="tab-5" class="card__tab-content tab-content">content200</div>
-            <div id="tab-6" class="card__tab-content tab-content">content200</div>
-            <div id="tab-7" class="card__tab-content tab-content">content200</div>
+            <div id="tab-5" class="card__tab-content tab-content">
+              content200
+            </div>
+            <div id="tab-6" class="card__tab-content tab-content">
+              content200
+            </div>
+            <div id="tab-7" class="card__tab-content tab-content">
+              content200
+            </div>
           </div>
         </div>
       </div>
@@ -328,7 +360,8 @@
                 <input
                   class="footer-form__input"
                   type="text"
-                  placeholder="Введите ваш e-mail:" />
+                  placeholder="Введите ваш e-mail:"
+                />
                 <button class="footer-form__btn" type="submit">
                   <p>Отправить</p>
                 </button>
