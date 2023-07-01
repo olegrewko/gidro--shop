@@ -23,6 +23,12 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!--formstyler  -->
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/ion.rangeSlider.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
+    <script src="js/jquery.rateyo.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
     <header class="header">
@@ -49,13 +55,15 @@
               </ul>
             </nav>
             <a href="#" class="logo">
-              <img
+              <!-- <img
                 class="logo__img"
                 src="images/logo.svg"
                 alt="images/logo.svg"
-              />
+              /> -->
+              <h1 class="logo">Plumber-500</h1>
+              <span class="logo-text">Магазин отопительного оборудования</span>
             </a>
-            <div class="header__box">
+            <!-- <div class="header__box">
               <p class="header_adress">Москва, ул. Науки 25</p>
               <ul class="user__list">
                 <li class="user__list-item">
@@ -70,12 +78,22 @@
                 </li>
                 <li class="user__list-item">
                   <a class="user-list__link cart">
-                    <img src="images/cart.svg" alt="" />
+                    <img src="images/cart02.svg" alt="" />
                     <p class="cart__num">2</p>
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> -->
+            <form class="filter-search__form" type="text">
+              <input
+                class="filter-search__input"
+                type="text"
+                placeholder="Search..."
+              />
+              <button class="filter-search__btn" type="submit">
+                <img src="./images/search.png" alt="search.png" />
+              </button>
+            </form>
           </div>
         </div>
       </div>
@@ -172,10 +190,23 @@
               <li class="menu-categories__item">
                 <a class="menu-categories__link" href="#">Двигатели</a>
               </li>
-              <li class="menu-categories__item">
+              <li class="menu-categories__item big">
                 <a class="menu-categories__link" href="#">Запчасти</a>
               </li>
             </ul>
+            <div class="cart-prev">
+              <div class="cart-price">
+                0
+                <span class="cart-pr">p</span>
+              </div>
+
+              <div class="cart-icon">
+                <a class="user-list__link cart">
+                  <img src="images/cart.svg" alt="" />
+                  <p class="cart__num">2</p>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -186,39 +217,24 @@
         <div class="banner-section__slider">
           <a
             class="banner-section__slider-item"
-            style="background-image: url(images/sb1.jpg)"
+            style="background-image: url(images/t01.jpg)"
           >
           </a>
           <a
             class="banner-section__slider-item"
-            style="background-image: url(images/sb1.jpg)"
+            style="background-image: url(images/t02.jpg)"
           >
           </a>
           <a
             class="banner-section__slider-item"
-            style="background-image: url(images/sb1.jpg)"
+            style="background-image: url(images/t03.jpg)"
           >
           </a>
-          <a
+          <!-- <a
             class="banner-section__slider-item"
-            style="background-image: url(images/sb1.jpg)"
+            style="background-image: url(images/sb4.jpg)"
           >
-          </a>
-          <!-- <a class="banner-section__slider-item"
-              ><img src="images/sb1.jpg" alt=""
-            /></a>
-            <a class="banner-section__slider-item"
-              ><img src="images/sb1.jpg" alt=""
-            /></a>
-            <a class="banner-section__slider-item"
-              ><img src="images/sb1.jpg" alt=""
-            /></a>
-            <a class="banner-section__slider-item"
-              ><img src="images/sb1.jpg" alt=""
-            /></a>
-            <a class="banner-section__slider-item"
-              ><img src="images/sb1.jpg" alt=""
-            /></a> -->
+          </a> -->
         </div>
         <!-- 
           <a class="banner-section__item sale-item">
@@ -313,7 +329,7 @@
               alt=""
             />
           </a>
-          <a class="categories__item" href="catalog.html">
+          <a class="categories__item tomato" href="catalog.html">
             <div class="categories__item-info">
               <h4 class="categories__item-title">Гидроциклы</h4>
               <p class="categories__item-text">Подробнее</p>
@@ -809,25 +825,23 @@
       </div>
     </footer>
     <!--  -->
-    <!-- <div class="tabs-wrapper">
+    <div class="tabs-wrapper">
       <div class="tabs">
         <a class="tab tab--active" href="#tab01"><span>name01</span></a>
         <a class="tab" href="#tab02"><span>name02</span></a>
       </div>
       <div class="tabs-container">
-        <div id="tab01" class="tab-content tabs-content--active">
-          content100
-        </div>
+        <div id="tab01" class="tab-content tab-content--active">content100</div>
         <div id="tab02" class="tab-content">content200</div>
       </div>
-    </div> -->
+    </div>
     <!--  -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/ion.rangeSlider.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script> -->
+    <!-- <script src="js/ion.rangeSlider.min.js"></script>
     <script src="js/jquery.formstyler.min.js"></script>
-    <script src="js/jquery.rateyo.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/jquery.rateyo.min.js"></script> -->
+    <!-- <script src="js/main.js"></script> -->
   </body>
 </html>
 
