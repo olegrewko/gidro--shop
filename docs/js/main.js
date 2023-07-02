@@ -1,21 +1,22 @@
 $(function(){
       $('.banner-section__slider').slick({
         dots: true,
-      
+        infinite: true,
         prevArrow: '<img class="slider-arrows slider-arrow--left" src="images/arrow-left.svg" alt="">',
         nextArrow: '<img class="slider-arrows slider-arrow--right" src="images/arrow-right.svg" alt="">'
 
       });
-      $('.product-slider').slick({
-        dots: true,
-         infinite: true,
-           slidesToShow: 4,
-           slidesToScroll: 1,
+  
+      // $('.product-slider').slick({
+      //   dots: true,
+      //    infinite: true,
+      //      slidesToShow: 4,
+      //      slidesToScroll: 1,
       
-        prevArrow: '<img class="slider-arrows slider-arrow--left" src="images/arrow-black-left.svg" alt="">',
-        nextArrow: '<img class="slider-arrows slider-arrow--right" src="images/arrow-black-right.svg" alt="">'
+      //   prevArrow: '<img class="slider-arrows slider-arrow--left" src="images/arrow-black-left.svg" alt="">',
+      //   nextArrow: '<img class="slider-arrows slider-arrow--right" src="images/arrow-black-right.svg" alt="">'
 
-      });
+      // });
 
       $('.search__tabs-item').on('click', function(e){
 
@@ -38,15 +39,15 @@ $(function(){
 
       });
 
-      $('.tab product-card__tab').on('click', function (e) {
+      // $('.tab product-card__tab').on('click', function (e) {
 
-        e.preventDefault();
-        $('.tab product-card__tab').removeClass('tab--active');
-        $('.tab-content product-card__tab-content').removeClass('tabs-content--active');
-        $(this).addClass('tab--active');
-        $($(this).attr('href')).addClass('tabs-content--active');
+      //   e.preventDefault();
+      //   $('.tab product-card__tab').removeClass('tab--active');
+      //   $('.tab-content product-card__tab-content').removeClass('tabs-content--active');
+      //   $(this).addClass('tab--active');
+      //   $($(this).attr('href')).addClass('tabs-content--active');
 
-      });
+      // });
   
 
 
@@ -86,5 +87,15 @@ $(function(){
 
 });
 
+$(function(){
+  $('.product-slider').slick({
+        dots: true,
+         infinite: true,
+           slidesToShow: 4,
+           slidesToScroll: 1,
+      
+        prevArrow: '<img class="slider-arrows slider-arrow--left" src="images/arrow-black-left.svg" alt="">',
+        nextArrow: '<img class="slider-arrows slider-arrow--right" src="images/arrow-black-right.svg" alt="">'
 
-
+      });
+});

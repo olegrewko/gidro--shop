@@ -34,32 +34,39 @@
     <header class="header">
       <div class="header__top">
         <div class="container">
+          <div class="header__top-b">
+            <button class="menu__btn">
+              <div>
+                <div class="menu__btn-line"></div>
+                <div class="menu__btn-line"></div>
+                <div class="menu__btn-line"></div>
+              </div>
+            </button>
+            <div class="cart-icon-black">
+              <a class="user-list__link cart">
+                <img src="images/cart.svg" alt="" />
+                <p class="cart__num">2</p>
+              </a>
+            </div>
+          </div>
           <div class="header__top-inner">
             <nav class="menu">
-              <button class="menu__btn">
+              <!-- <button class="menu__btn">
                 <div class="menu__btn-line"></div>
                 <div class="menu__btn-line"></div>
                 <div class="menu__btn-line"></div>
-              </button>
+              </button> -->
 
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a class="menu__link" href="#">Магазины</a>
+                  <a class="menu__link" href="#">8(999)8525821</a>
                 </li>
                 <li class="menu__item">
-                  <a class="menu__link" href="#">Акции</a>
-                </li>
-                <li class="menu__item">
-                  <a class="menu__link" href="#">Доставка и оплата</a>
+                  <a class="menu__link" href="#">8(800)9525581</a>
                 </li>
               </ul>
             </nav>
             <a href="#" class="logo">
-              <!-- <img
-                class="logo__img"
-                src="images/logo.svg"
-                alt="images/logo.svg"
-              /> -->
               <h1 class="logo">Plumber-500</h1>
               <span class="logo-text">Магазин отопительного оборудования</span>
             </a>
@@ -152,7 +159,7 @@
           <a class="menu-mobile__link" href="#"><p>Запчасти</p></a>
         </li>
       </ul>
-      <div class="menu__mobile-line-wrapper">
+      <!-- <div class="menu__mobile-line-wrapper">
         <ul class="menu__mobile-line">
           <li class="menu__item">
             <a class="menu__link" href="#">Магазины</a>
@@ -164,7 +171,7 @@
             <a class="menu__link" href="#">Доставка и оплата</a>
           </li>
         </ul>
-      </div>
+      </div> -->
       <div class="header__bottom">
         <div class="container">
           <div class="header__bottom-inner">
@@ -255,19 +262,19 @@
         <!-- </div> -->
       </div>
     </section>
-    <section class="search page-section">
+    <!-- <section class="search page-section">
       <div class="container">
         <div class="search__inner">
           <div class="search__tabs tabs-wrapper">
             <!-- <div class="mobile__overflow"> -->
-            <a class="search__tabs-item search__tabs-item--active" href="#tab-1"
+    <!-- <a class="search__tabs-item search__tabs-item--active" href="#tab-1"
               >Поиск по номеру</a
             >
             <a class="search__tabs-item" href="#tab-2">Поиск по марке</a>
             <a class="search__tabs-item" href="#tab-3"
               >Поиск по названию товара</a
             >
-            <!-- </div> -->
+            
           </div>
           <div class="search__content">
             <div
@@ -313,7 +320,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>  -->
 
     <section class="categories page-section">
       <div class="container">
@@ -321,13 +328,14 @@
           <a class="categories__item" href="">
             <div class="categories__item-info">
               <h4 class="categories__item-title">Квадроциклы</h4>
-              <p class="categories__item-text">Подробнее</p>
+              <!-- <p class="categories__item-text">Подробнее</p>
             </div>
             <img
               class="categories__item-img"
               src="images/X6-EPS_blue.png"
               alt=""
-            />
+            /> -->
+            </div>
           </a>
           <a class="categories__item tomato" href="catalog.html">
             <div class="categories__item-info">
@@ -400,7 +408,7 @@
             <div class="tabs-container products-container">
               <div
                 id="products-tab-1"
-                class="tabs-content products-content tabs-content--active"
+                class="tab-content products-content tab-content--active"
               >
                 <div class="product-slider">
                   <div class="product-slider__item">
@@ -409,13 +417,13 @@
                     <div class="product-item__wrapper">
                       <a class="product-item" href="">
                         <p class="product-item__hover-text">посмотреть товар</p>
-                        <button class="product-item__favorite">
+                        <!-- <a class="product-item__favorite">
                           <img
                             class="product-item__img-favorite"
                             src="images/favorite.svg"
                             alt=""
                           />
-                        </button>
+                        </a> -->
                         <img
                           class="product-item__img"
                           src="images/cq5dam.png"
@@ -425,13 +433,89 @@
                         <h4 class="product-item__title">
                           Водонепроницаемый Рюкзак
                         </h4>
-                        <p class="price product-item__price">9 800 ₽</p>
+                        <p class="price product-item__price">10 000 ₽</p>
                         <p class="product-item__notify-text">нет в наличии</p>
 
                         <button class="product-item__basket">
                           <img
                             class="product-item__img-basket"
-                            src="images/b-white.svg"
+                            src="images/cart.svg"
+                            alt=""
+                          />
+                        </button>
+                        <p class="product-item__notify-link">
+                          <span>Сообщить о поступлении</span>
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="product-slider__item">
+                    <!-- <div
+                      class="product-item__wrapper product-item__not-available"> -->
+                    <div class="product-item__wrapper">
+                      <a class="product-item" href="">
+                        <p class="product-item__hover-text">посмотреть товар</p>
+                        <!-- <a class="product-item__favorite">
+                          <img
+                            class="product-item__img-favorite"
+                            src="images/favorite.svg"
+                            alt=""
+                          />
+                        </a> -->
+                        <img
+                          class="product-item__img"
+                          src="images/cq5dam.png"
+                          alt=""
+                        />
+
+                        <h4 class="product-item__title">
+                          Водонепроницаемый Рюкзак
+                        </h4>
+                        <p class="price product-item__price">10 000 ₽</p>
+                        <p class="product-item__notify-text">нет в наличии</p>
+
+                        <button class="product-item__basket">
+                          <img
+                            class="product-item__img-basket"
+                            src="images/cart.svg"
+                            alt=""
+                          />
+                        </button>
+                        <p class="product-item__notify-link">
+                          <span>Сообщить о поступлении</span>
+                        </p>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="product-slider__item">
+                    <!-- <div
+                      class="product-item__wrapper product-item__not-available"> -->
+                    <div class="product-item__wrapper">
+                      <a class="product-item product-item--sale" href="">
+                        <p class="product-item__hover-text">посмотреть товар</p>
+                        <!-- <a class="product-item__favorite">
+                          <img
+                            class="product-item__img-favorite"
+                            src="images/favorite.svg"
+                            alt=""
+                          />
+                        </a> -->
+                        <img
+                          class="product-item__img"
+                          src="images/cq5dam.png"
+                          alt=""
+                        />
+
+                        <h4 class="product-item__title">
+                          Водонепроницаемый Рюкзак
+                        </h4>
+                        <p class="price product-item__price">19 800 ₽</p>
+                        <p class="product-item__notify-text">нет в наличии</p>
+
+                        <button class="product-item__basket">
+                          <img
+                            class="product-item__img-basket"
+                            src="images/cart.svg"
                             alt=""
                           />
                         </button>
@@ -466,51 +550,13 @@
                         <p class="price product-item__price">9 800 ₽</p>
                         <p class="product-item__notify-text">нет в наличии</p>
 
-                        <button class="product-item__basket">
+                        <a class="product-item__basket">
                           <img
                             class="product-item__img-basket"
-                            src="images/b-white.svg"
+                            src="images/cart.svg"
                             alt=""
                           />
-                        </button>
-                        <p class="product-item__notify-link">
-                          <span>Сообщить о поступлении</span>
-                        </p>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="product-slider__item">
-                    <!-- <div
-                      class="product-item__wrapper product-item__not-available"> -->
-                    <div class="product-item__wrapper">
-                      <a class="product-item product-item--sale" href="">
-                        <p class="product-item__hover-text">посмотреть товар</p>
-                        <button class="product-item__favorite">
-                          <img
-                            class="product-item__img-favorite"
-                            src="images/favorite.svg"
-                            alt=""
-                          />
-                        </button>
-                        <img
-                          class="product-item__img"
-                          src="images/cq5dam.png"
-                          alt=""
-                        />
-
-                        <h4 class="product-item__title">
-                          Водонепроницаемый Рюкзак
-                        </h4>
-                        <p class="price product-item__price">9 800 ₽</p>
-                        <p class="product-item__notify-text">нет в наличии</p>
-
-                        <button class="product-item__basket">
-                          <img
-                            class="product-item__img-basket"
-                            src="images/b-white.svg"
-                            alt=""
-                          />
-                        </button>
+                        </a>
                         <p class="product-item__notify-link">
                           <span>Сообщить о поступлении</span>
                         </p>
@@ -525,13 +571,13 @@
                       class="product-item__wrapper"> -->
                       <a class="product-item product-item--sale" href="">
                         <p class="product-item__hover-text">посмотреть товар</p>
-                        <button class="product-item__favorite">
+                        <!-- <button class="product-item__favorite">
                           <img
                             class="product-item__img-favorite"
                             src="images/favorite.svg"
                             alt=""
                           />
-                        </button>
+                        </button> -->
                         <img
                           class="product-item__img"
                           src="images/cq5dam.png"
@@ -547,7 +593,7 @@
                         <button class="product-item__basket">
                           <img
                             class="product-item__img-basket"
-                            src="images/b-white.svg"
+                            src="images/cart.svg"
                             alt=""
                           />
                         </button>
@@ -559,179 +605,44 @@
                   </div>
                 </div>
               </div>
-              <!-- <div id="products-tab-2" class="tabs-content products-content ">
-                <div class="product-slider">
-
-                  <div class="product-slider__item">
-         
-                    <div
-                      class="product-item__wrapper">
-                      <a class="product-item " href="">
-                        <p class="product-item__hover-text">посмотреть товар</p>
-                        <button class="product-item__favorite">
-                          <img
-                            class="product-item__img-favorite"
-                            src="images/favorite.svg"
-                            alt="" />
-                        </button>
-                        <img
-                          class="product-item__img"
-                          src="images/cq5dam.png"
-                          alt="" />
-
-                        <h4 class="product-item__title">
-                          Водонепроницаемый Рюкзак
-                        </h4>
-                        <p class="price product-item__price">9 800 ₽</p>
-                        <p class="product-item__notify-text">нет в наличии</p>
-
-                        <button class="product-item__basket">
-                          <img
-                            class="product-item__img-basket"
-                            src="images/b-white.svg"
-                            alt="" />
-                        </button>
-                        <p class="product-item__notify-link">
-                          <span>Сообщить о поступлении</span>
-                        </p>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="product-slider__item">
-            
-                    <div
-                      class="product-item__wrapper">
-                      <a class="product-item product-item--sale" href="">
-                        <p class="product-item__hover-text">посмотреть товар</p>
-                        <button class="product-item__favorite">
-                          <img
-                            class="product-item__img-favorite"
-                            src="images/favorite.svg"
-                            alt="" />
-                        </button>
-                        <img
-                          class="product-item__img"
-                          src="images/cq5dam.png"
-                          alt="" />
-
-                        <h4 class="product-item__title">
-                          Водонепроницаемый Рюкзак
-                        </h4>
-                        <p class="price product-item__price">9 800 ₽</p>
-                        <p class="product-item__notify-text">нет в наличии</p>
-
-                        <button class="product-item__basket">
-                          <img
-                            class="product-item__img-basket"
-                            src="images/b-white.svg"
-                            alt="" />
-                        </button>
-                        <p class="product-item__notify-link">
-                          <span>Сообщить о поступлении</span>
-                        </p>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="product-slider__item">
-            
-                    <div
-                      class="product-item__wrapper">
-                      <a class="product-item product-item--sale" href="">
-                        <p class="product-item__hover-text">посмотреть товар</p>
-                        <button class="product-item__favorite">
-                          <img
-                            class="product-item__img-favorite"
-                            src="images/favorite.svg"
-                            alt="" />
-                        </button>
-                        <img
-                          class="product-item__img"
-                          src="images/cq5dam.png"
-                          alt="" />
-
-                        <h4 class="product-item__title">
-                          Водонепроницаемый Рюкзак
-                        </h4>
-                        <p class="price product-item__price">9 800 ₽</p>
-                        <p class="product-item__notify-text">нет в наличии</p>
-
-                        <button class="product-item__basket">
-                          <img
-                            class="product-item__img-basket"
-                            src="images/b-white.svg"
-                            alt="" />
-                        </button>
-                        <p class="product-item__notify-link">
-                          <span>Сообщить о поступлении</span>
-                        </p>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="product-slider__item">
-                    <div
-                      class="product-item__wrapper product-item__not-available">
-           
-                      <a class="product-item product-item--sale" href="">
-                        <p class="product-item__hover-text">посмотреть товар</p>
-                        <button class="product-item__favorite">
-                          <img
-                            class="product-item__img-favorite"
-                            src="images/favorite.svg"
-                            alt="" />
-                        </button>
-                        <img
-                          class="product-item__img"
-                          src="images/cq5dam.png"
-                          alt="" />
-
-                        <h4 class="product-item__title">
-                          Водонепроницаемый Рюкзак
-                        </h4>
-                        <p class="price product-item__price">9 800 ₽</p>
-                        <p class="product-item__notify-text">нет в наличии</p>
-
-                        <button class="product-item__basket">
-                          <img
-                            class="product-item__img-basket"
-                            src="images/b-white.svg"
-                            alt="" />
-                        </button>
-                        <p class="product-item__notify-link">
-                          <span>Сообщить о поступлении</span>
-                        </p>
-                      </a>
-                    </div>
-                  </div>
-                  
-                </div>
-              </div> -->
-              <div id="products-tab-3" class="tabs-content products-content">
+              <div id="products-tab-2" class="tab-content products-content">
+                slider-2
+              </div>
+              <div id="products-tab-3" class="tab-content products-content">
                 slider-3
               </div>
-              <div id="products-tab-4" class="tabs-content products-content">
+              <div id="products-tab-4" class="tab-content products-content">
                 slider-4
               </div>
-              <div id="products-tab-5" class="tabs-content products-content">
+              <div id="products-tab-5" class="tab-content products-content">
                 slider-5
               </div>
-              <div id="products-tab-6" class="tabs-content products-content">
+              <div id="products-tab-6" class="tab-content products-content">
                 slider-6
               </div>
             </div>
           </div>
-          <div class="product__more">
+          <!-- <div class="product__more">
             <a href="" class="product__more-link">Показать еще</a>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
-    <section class="banner">
-      <div class="container">
-        <a class="banner-link" href="#">
-          <img src="images/banner.jpg" alt="" />
-        </a>
+    <!-- <section class="tabs-wrapper">
+
+        <div class="tabs-wrapper">
+      <div class="tabs">
+        <a class="tab tab--active" href="#tab01"><span>name01</span></a>
+        <a class="tab" href="#tab02"><span>name02</span></a>
       </div>
-    </section>
+      <div class="tabs-container">
+        <div id="tab01" class="tab-content tab-content--active">content100</div>
+        <div id="tab02" class="tab-content">content200</div>
+      </div>
+    </div>
+
+
+    </section> -->
     <section class="product-popular">
       <div class="container">
         <div class="products__inner">
@@ -825,7 +736,7 @@
       </div>
     </footer>
     <!--  -->
-    <div class="tabs-wrapper">
+    <!-- <div class="tabs-wrapper">
       <div class="tabs">
         <a class="tab tab--active" href="#tab01"><span>name01</span></a>
         <a class="tab" href="#tab02"><span>name02</span></a>
@@ -834,7 +745,7 @@
         <div id="tab01" class="tab-content tab-content--active">content100</div>
         <div id="tab02" class="tab-content">content200</div>
       </div>
-    </div>
+    </div> -->
     <!--  -->
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script> -->
